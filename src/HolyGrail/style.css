@@ -1,0 +1,49 @@
+
+header,
+nav,
+main,
+aside,
+footer {
+  padding: 12px;
+}
+
+header {
+    display:block;
+    background-color: tomato;
+    height:60px;
+    text-align: center;
+  
+  }
+  .main_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:calc(100vh - 160px);
+  }
+  nav {
+    background-color: coral;
+    width: 100px;
+    height: 100%;
+  }
+  
+  main {
+    background-color: moccasin;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  aside {
+    background-color: sandybrown;
+    width: 100px;
+    height: 100%;
+  }
+  
+  footer {
+    background-color: slategray;
+    display: block;
+    text-align: center;
+    height: 100px;
+    
+  }
+  
